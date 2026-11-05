@@ -146,19 +146,19 @@ export default function Home(){
         <span className="steps-travel-light" aria-hidden="true"/>
         <article className="step-card">
           <div className="step-number" aria-label="Passo 1">01</div>
-          <div className="step-icon" aria-hidden="true">🎁</div>
+          <div className="step-icon" aria-hidden="true">✧</div>
           <h3>Acesse os materiais</h3>
           <p>Depois da compra e da liberação do acesso, consulte os modelos, textos e o roteiro de organização do kit.</p>
         </article>
         <article className="step-card">
           <div className="step-number" aria-label="Passo 2">02</div>
-          <div className="step-icon" aria-hidden="true">✨</div>
+          <div className="step-icon" aria-hidden="true">✦</div>
           <h3>Personalize para seu negócio</h3>
           <p>Adapte as sugestões à sua marca, aos seus produtos, às suas condições comerciais e à sua linguagem.</p>
         </article>
         <article className="step-card">
           <div className="step-number" aria-label="Passo 3">03</div>
-          <div className="step-icon" aria-hidden="true">🎄</div>
+          <div className="step-icon" aria-hidden="true">↗</div>
           <h3>Organize e divulgue</h3>
           <p>Planeje suas publicações e mensagens, revise as informações e use os materiais nos seus canais.</p>
         </article>
@@ -233,7 +233,7 @@ export default function Home(){
         </div>
         <div className="footer-decoration" aria-hidden="true">✦ ✧ ✦</div>
       </div>
-      <div className="footer-main">
+      <div className="footer-main"><div className="footer-premium-head"><span>✦ NATAL LUCRATIVO 2026</span><strong>Uma campanha mais bonita começa com boas ideias.</strong></div>
         <div className="footer-brand-area">
           <a href="#inicio" className="footer-brand">NATAL LUCRATIVO <strong>2026</strong></a>
           <p>Materiais digitais para apoiar pequenos negócios na preparação da comunicação de fim de ano.</p>
