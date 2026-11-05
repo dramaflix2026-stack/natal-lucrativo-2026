@@ -146,27 +146,29 @@ export default function Home(){
       </div>
     </section>
     <section id="como-funciona" className="steps-section" aria-labelledby="steps-title">
+      <div className="steps-photo-banner" aria-hidden="true"><div className="steps-photo-sheen"/></div>
       <div className="steps-heading">
         <span className="eyebrow">Simples de colocar em prática</span>
         <h2 id="steps-title">Do planejamento à divulgação, <em>em três passos.</em></h2>
         <p>O kit foi pensado para ajudar você a organizar sua comunicação natalina sem precisar começar tudo do zero.</p>
       </div>
       <div className="steps-track">
+        <span className="steps-travel-light" aria-hidden="true"/>
         <article className="step-card">
           <div className="step-number" aria-label="Passo 1">01</div>
-          <div className="step-icon" aria-hidden="true">✦</div>
+          <div className="step-icon" aria-hidden="true">🎁</div>
           <h3>Acesse os materiais</h3>
           <p>Depois da compra e da liberação do acesso, consulte os modelos, textos e o roteiro de organização do kit.</p>
         </article>
         <article className="step-card">
           <div className="step-number" aria-label="Passo 2">02</div>
-          <div className="step-icon" aria-hidden="true">✎</div>
+          <div className="step-icon" aria-hidden="true">✨</div>
           <h3>Personalize para seu negócio</h3>
           <p>Adapte as sugestões à sua marca, aos seus produtos, às suas condições comerciais e à sua linguagem.</p>
         </article>
         <article className="step-card">
           <div className="step-number" aria-label="Passo 3">03</div>
-          <div className="step-icon" aria-hidden="true">↗</div>
+          <div className="step-icon" aria-hidden="true">🎄</div>
           <h3>Organize e divulgue</h3>
           <p>Planeje suas publicações e mensagens, revise as informações e use os materiais nos seus canais.</p>
         </article>
