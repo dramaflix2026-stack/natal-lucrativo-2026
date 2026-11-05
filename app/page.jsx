@@ -34,6 +34,37 @@ export default function Home(){
       <div className="hero-visual">
         <div className="photo-wrap">
           <ResilientPhoto src="/images/natal-hero.jpg" fallback="/images/natal-hero.jpg" alt="Presentes natalinos decorados em um ambiente festivo" loading="eager"/>
+          <svg className="christmas-lights" viewBox="0 0 580 510" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+            <path className="christmas-wire" d="M 14 484 L 14 240 C 14 115 122 12 290 12 C 458 12 566 115 566 240 L 566 484 Q 566 499 550 499 L 30 499 Q 14 499 14 484" />
+                          <circle className="christmas-bulb bulb-0" cx="14" cy="484" r="5.5" style={{animationDelay:'-0s'}}/>
+              <circle className="christmas-bulb bulb-1" cx="14" cy="425" r="5.5" style={{animationDelay:'-0.23s'}}/>
+              <circle className="christmas-bulb bulb-2" cx="14" cy="365" r="5.5" style={{animationDelay:'-0.46s'}}/>
+              <circle className="christmas-bulb bulb-3" cx="14" cy="305" r="5.5" style={{animationDelay:'-0.6900000000000001s'}}/>
+              <circle className="christmas-bulb bulb-0" cx="20" cy="240" r="5.5" style={{animationDelay:'-0.92s'}}/>
+              <circle className="christmas-bulb bulb-1" cx="42" cy="178" r="5.5" style={{animationDelay:'-1.1500000000000001s'}}/>
+              <circle className="christmas-bulb bulb-2" cx="85" cy="116" r="5.5" style={{animationDelay:'-1.3800000000000001s'}}/>
+              <circle className="christmas-bulb bulb-3" cx="147" cy="65" r="5.5" style={{animationDelay:'-0s'}}/>
+              <circle className="christmas-bulb bulb-0" cx="215" cy="28" r="5.5" style={{animationDelay:'-0.23s'}}/>
+              <circle className="christmas-bulb bulb-1" cx="290" cy="12" r="5.5" style={{animationDelay:'-0.46s'}}/>
+              <circle className="christmas-bulb bulb-2" cx="365" cy="28" r="5.5" style={{animationDelay:'-0.6900000000000001s'}}/>
+              <circle className="christmas-bulb bulb-3" cx="433" cy="65" r="5.5" style={{animationDelay:'-0.92s'}}/>
+              <circle className="christmas-bulb bulb-0" cx="495" cy="116" r="5.5" style={{animationDelay:'-1.1500000000000001s'}}/>
+              <circle className="christmas-bulb bulb-1" cx="538" cy="178" r="5.5" style={{animationDelay:'-1.3800000000000001s'}}/>
+              <circle className="christmas-bulb bulb-2" cx="560" cy="240" r="5.5" style={{animationDelay:'-0s'}}/>
+              <circle className="christmas-bulb bulb-3" cx="566" cy="305" r="5.5" style={{animationDelay:'-0.23s'}}/>
+              <circle className="christmas-bulb bulb-0" cx="566" cy="365" r="5.5" style={{animationDelay:'-0.46s'}}/>
+              <circle className="christmas-bulb bulb-1" cx="566" cy="425" r="5.5" style={{animationDelay:'-0.6900000000000001s'}}/>
+              <circle className="christmas-bulb bulb-2" cx="566" cy="484" r="5.5" style={{animationDelay:'-0.92s'}}/>
+              <circle className="christmas-bulb bulb-3" cx="510" cy="499" r="5.5" style={{animationDelay:'-1.1500000000000001s'}}/>
+              <circle className="christmas-bulb bulb-0" cx="452" cy="499" r="5.5" style={{animationDelay:'-1.3800000000000001s'}}/>
+              <circle className="christmas-bulb bulb-1" cx="394" cy="499" r="5.5" style={{animationDelay:'-0s'}}/>
+              <circle className="christmas-bulb bulb-2" cx="336" cy="499" r="5.5" style={{animationDelay:'-0.23s'}}/>
+              <circle className="christmas-bulb bulb-3" cx="278" cy="499" r="5.5" style={{animationDelay:'-0.46s'}}/>
+              <circle className="christmas-bulb bulb-0" cx="220" cy="499" r="5.5" style={{animationDelay:'-0.6900000000000001s'}}/>
+              <circle className="christmas-bulb bulb-1" cx="162" cy="499" r="5.5" style={{animationDelay:'-0.92s'}}/>
+              <circle className="christmas-bulb bulb-2" cx="104" cy="499" r="5.5" style={{animationDelay:'-1.1500000000000001s'}}/>
+              <circle className="christmas-bulb bulb-3" cx="46" cy="499" r="5.5" style={{animationDelay:'-1.3800000000000001s'}}/>
+          </svg>
           <div className="photo-label">Sua campanha de Natal começa aqui ✦</div>
         </div>
         <div className="float-note">✦ NATAL 2026</div>
