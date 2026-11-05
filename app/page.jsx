@@ -33,7 +33,7 @@ export default function Home(){
       </div>
       <div className="hero-visual">
         <div className="photo-wrap">
-          <ResilientPhoto src="/images/natal-hero.jpg" fallback="/images/natal-hero.jpg" alt="Presentes natalinos decorados em um ambiente festivo" loading="eager"/>
+          <ResilientPhoto src="/images/natal-hero-premium.jpg" fallback="/images/natal-hero.jpg" alt="Árvore de Natal iluminada com presentes em uma sala aconchegante" loading="eager"/>
           <svg className="christmas-lights" viewBox="0 0 580 510" preserveAspectRatio="none" aria-hidden="true" focusable="false">
             <path className="christmas-wire" d="M 14 484 L 14 240 C 14 115 122 12 290 12 C 458 12 566 115 566 240 L 566 484 Q 566 499 550 499 L 30 499 Q 14 499 14 484" />
                           <circle className="christmas-bulb bulb-0" cx="14" cy="484" r="5.5" style={{animationDelay:'-0s'}}/>
