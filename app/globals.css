@@ -19,3 +19,14 @@
 
 /* Image failure resilience: retain festive appearance if external hosts are blocked */
 .photo-wrap,.kit-photo,.faq-photo-frame{background-color:#244b38;background-image:radial-gradient(circle at 70% 20%,#e2c37b50,transparent 25%),radial-gradient(circle at 30% 75%,#a8783150,transparent 30%),linear-gradient(140deg,#234b38,#0c2d23)}.photo-wrap img[hidden],.kit-photo img[hidden],.faq-photo-frame img[hidden]{display:none}.hero-visual img,.kit-photo img,.faq-photo-frame img{color:transparent;font-size:0}
+
+
+/* Animated Christmas lights following the arched hero photograph */
+.photo-wrap .christmas-lights{position:absolute;inset:0;width:100%;height:100%;z-index:3;pointer-events:none;overflow:visible}
+.christmas-wire{fill:none;stroke:#183b2e;stroke-width:2.5;opacity:.9}
+.christmas-bulb{fill:#ffe3a1;stroke:#fff5d4;stroke-width:1;filter:drop-shadow(0 0 7px #ffcf68);animation:christmas-twinkle 1.45s ease-in-out infinite alternate;transform-box:fill-box;transform-origin:center}
+.christmas-bulb.bulb-1{fill:#ff6c59;stroke:#ffb1a2;animation-duration:1.9s}
+.christmas-bulb.bulb-2{fill:#f9d16d;stroke:#fff1b5;animation-duration:1.15s}
+.christmas-bulb.bulb-3{fill:#eaf7dd;stroke:#ffffff;animation-duration:1.7s}
+@keyframes christmas-twinkle{0%,22%{opacity:.22;filter:drop-shadow(0 0 1px currentColor);transform:scale(.76)}48%,100%{opacity:1;filter:drop-shadow(0 0 7px #ffe7a4) drop-shadow(0 0 13px #ffbb55);transform:scale(1.18)}}
+@media(prefers-reduced-motion:reduce){.christmas-bulb{animation:none!important;opacity:1!important}}
