@@ -8,6 +8,15 @@ const items = [
   {number:'03',title:'Mensagens para WhatsApp',description:'Estruturas de mensagens para divulgar novidades e conversar com seus clientes.',kind:'whatsapp'},
   {number:'04',title:'Organização da campanha',description:'Um roteiro prático para planejar sua comunicação durante o período natalino.',kind:'plan'}
 ];
+const kitBulbPositions = Array.from({length: 28}, (_, i) => {
+  const t = i / 28 * 4;
+  const x = t < 1 ? t * 100 : t < 2 ? 100 : t < 3 ? (3 - t) * 100 : 0;
+  const y = t < 1 ? 0 : t < 2 ? (t - 1) * 100 : t < 3 ? 100 : (4 - t) * 100;
+  return {left: `${x}%`, top: `${y}%`, animationDelay: `${(i % 7) * -.27}s`};
+});
+function KitChristmasLights(){
+  return <div className="kit-christmas-lights" aria-hidden="true">{kitBulbPositions.map((pos,i)=><i key={i} className={`kit-christmas-bulb kit-bulb-${i % 4}`} style={pos}/>)}</div>;
+}
 export default function Home(){
   return <main>
     <div className="ticker" aria-label="Natal 2026, prepare sua divulgação, kit digital R$ 19,90">
@@ -80,8 +89,8 @@ export default function Home(){
       <div className="kit-layout">
         <div className="kit-showcase kit-showcase-premium" aria-label="Exemplos visuais natalinos">
           <div className="kit-photo"><ResilientPhoto src="/images/natal-vitrine.jpg" fallback="/images/natal-vitrine.jpg" alt="Fotografia de decoração natalina" loading="lazy"/></div>
-          <div className="kit-premium-photo kit-premium-photo-main"><ResilientPhoto src="/images/natal-mockup-tree.jpg" fallback="/images/natal-vitrine.jpg" alt="Árvore de Natal iluminada" loading="lazy"/><div className="kit-photo-overlay"><span>EXEMPLO VISUAL · NATAL 2026</span><strong>Um Natal para lembrar.</strong><small>Referência de arte para divulgação</small></div></div>
-          <div className="kit-premium-photo kit-premium-photo-gifts"><ResilientPhoto src="/images/natal-mockup-gifts.jpg" fallback="/images/natal-vitrine.jpg" alt="Presentes de Natal sob a árvore" loading="lazy"/><span>INSPIRAÇÃO PARA SUA CAMPANHA</span></div>
+          <div className="kit-premium-photo kit-premium-photo-main"><KitChristmasLights/><ResilientPhoto src="/images/natal-mockup-tree.jpg" fallback="/images/natal-vitrine.jpg" alt="Árvore de Natal iluminada" loading="lazy"/><div className="kit-photo-overlay"><span>EXEMPLO VISUAL · NATAL 2026</span><strong>Um Natal para lembrar.</strong><small>Referência de arte para divulgação</small></div></div>
+          <div className="kit-premium-photo kit-premium-photo-gifts"><KitChristmasLights/><ResilientPhoto src="/images/natal-mockup-gifts.jpg" fallback="/images/natal-vitrine.jpg" alt="Presentes de Natal sob a árvore" loading="lazy"/><span>INSPIRAÇÃO PARA SUA CAMPANHA</span></div>
           <div className="kit-premium-note"><span>IDEIA DE LEGENDA</span><strong>É tempo de celebrar ✨</strong><p>Uma sugestão de mensagem para apresentar sua campanha.</p></div>
           <div className="mockup-sticker">KIT DIGITAL<br/><strong>R$ 19,90</strong></div>
         </div>
