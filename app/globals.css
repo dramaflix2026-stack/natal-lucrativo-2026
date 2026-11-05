@@ -163,3 +163,17 @@
 
 /* Global typography: Poppins across all copy, headings, labels, CTAs and footer */
 html,body,body *,button,input,select,textarea{font-family:var(--font-poppins,"Poppins"),Arial,sans-serif!important}
+
+
+/* Festive hanging string lights across comparison cards */
+.comparison-panel{position:relative;isolation:isolate;overflow:hidden;padding-top:95px}
+.comparison-garland{position:absolute;z-index:3;top:0;left:18px;right:18px;height:76px;pointer-events:none}
+.comparison-garland-wire{position:absolute;inset:0;width:100%;height:72px;overflow:visible;filter:drop-shadow(0 1px 1px #0004)}
+.comparison-garland-light{position:absolute;display:block;width:11px;height:15px;border-radius:45% 45% 55% 55%;background:#ffe19b;transform:translate(-50%,4px) rotate(12deg);box-shadow:0 0 7px 2px #ffe1a9,0 0 18px 5px #ffc45b80;animation:comparison-twinkle 1.8s ease-in-out infinite alternate}
+.comparison-garland-light:before{content:"";position:absolute;width:7px;height:5px;top:-4px;left:2px;border-radius:2px;background:#7b7459}
+.comparison-garland-color-1{background:#f66c60;box-shadow:0 0 7px 2px #f66c60,0 0 19px 5px #fa5e5280;animation-duration:1.45s}
+.comparison-garland-color-2{background:#fff9e9;box-shadow:0 0 7px 2px #fff,0 0 20px 5px #fff5d599;animation-duration:2.15s}
+.comparison-garland-color-3{background:#f6c56b;animation-duration:1.6s}
+@keyframes comparison-twinkle{0%,22%{opacity:.4;filter:brightness(.7)}75%,100%{opacity:1;filter:brightness(1.3)}}
+@media(max-width:640px){.comparison-panel{padding-top:85px}.comparison-garland{left:12px;right:12px}.comparison-garland-light{width:8px;height:12px}}
+@media(prefers-reduced-motion:reduce){.comparison-garland-light{animation:none}}
