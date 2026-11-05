@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - '.github/workflows/bundle-christmas-photos.yml'
+      - 'app/page.jsx'
   workflow_dispatch:
 permissions:
   contents: write
@@ -20,7 +21,7 @@ jobs:
           import urllib.request, os, sys
           photos = {
             "natal-hero.jpg": [
-              "https://images.pexels.com/photos/1303081/pexels-photo-1303081.jpeg?auto=compress&cs=tinysrgb&w=1200",
+              "https://images.pexels.com/photos/6181838/pexels-photo-6181838.jpeg?auto=compress&cs=tinysrgb&w=1200",
               "https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=1200&q=85"
             ],
             "natal-vitrine.jpg": [
@@ -28,7 +29,7 @@ jobs:
               "https://images.unsplash.com/photo-1543589077-47d81606c1bf?w=1200&q=85"
             ],
             "natal-faq.jpg": [
-              "https://images.pexels.com/photos/1303082/pexels-photo-1303082.jpeg?auto=compress&cs=tinysrgb&w=1200",
+              "https://images.pexels.com/photos/35002552/pexels-photo-35002552.jpeg?auto=compress&cs=tinysrgb&w=1200",
               "https://images.unsplash.com/photo-1482517967863-00e15c9b44be?w=1200&q=85"
             ],
           }
@@ -51,9 +52,9 @@ jobs:
           from pathlib import Path
           p=Path("app/page.jsx")
           s=p.read_text()
-          s=s.replace('src="https://images.pexels.com/photos/6181838/pexels-photo-6181838.jpeg?auto=compress&cs=tinysrgb&w=1100"', 'src="/images/natal-hero.jpg"')
-          s=s.replace('src="https://images.pexels.com/photos/29637478/pexels-photo-29637478.jpeg?auto=compress&cs=tinysrgb&w=900"', 'src="/images/natal-vitrine.jpg"')
-          s=s.replace('src="https://images.pexels.com/photos/35002552/pexels-photo-35002552.jpeg?auto=compress&cs=tinysrgb&w=1100"', 'src="/images/natal-faq.jpg"')
+          s=s.replace('src="https://images.pexels.com/photos/6181838/pexels-photo-6181838.jpeg?auto=compress&cs=tinysrgb&w=1200"', 'src="/images/natal-hero.jpg"')
+          s=s.replace('src="https://images.pexels.com/photos/29637478/pexels-photo-29637478.jpeg?auto=compress&cs=tinysrgb&w=1200"', 'src="/images/natal-vitrine.jpg"')
+          s=s.replace('src="https://images.pexels.com/photos/35002552/pexels-photo-35002552.jpeg?auto=compress&cs=tinysrgb&w=1200"', 'src="/images/natal-faq.jpg"')
           p.write_text(s)
           css=Path("app/globals.css")
           style=css.read_text().replace('https://images.pexels.com/photos/34890779/pexels-photo-34890779.jpeg?auto=compress&cs=tinysrgb&w=600','/images/natal-hero.jpg')
