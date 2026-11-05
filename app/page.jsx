@@ -33,7 +33,7 @@ export default function Home(){
       </div>
       <div className="hero-visual">
         <div className="photo-wrap">
-          <ResilientPhoto src="https://images.pexels.com/photos/6181838/pexels-photo-6181838.jpeg?auto=compress&cs=tinysrgb&w=1100" fallback="/images/natal-hero.svg" alt="Presentes natalinos decorados em um ambiente festivo" loading="eager"/>
+          <ResilientPhoto src="https://images.pexels.com/photos/6181838/pexels-photo-6181838.jpeg?auto=compress&cs=tinysrgb&w=1200" fallback="https://images.pexels.com/photos/19369854/pexels-photo-19369854.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Presentes natalinos decorados em um ambiente festivo" loading="eager"/>
           <div className="photo-label">Sua campanha de Natal começa aqui ✦</div>
         </div>
         <div className="float-note">✦ NATAL 2026</div>
@@ -48,7 +48,7 @@ export default function Home(){
       </div>
       <div className="kit-layout">
         <div className="kit-showcase" aria-label="Ilustrações conceituais dos tipos de material">
-          <div className="kit-photo"><ResilientPhoto src="https://images.pexels.com/photos/29637478/pexels-photo-29637478.jpeg?auto=compress&cs=tinysrgb&w=900" fallback="/images/natal-vitrine.svg" alt="Decoração de Natal utilizada como referência visual do kit" loading="lazy"/></div>
+          <div className="kit-photo"><ResilientPhoto src="https://images.pexels.com/photos/29637478/pexels-photo-29637478.jpeg?auto=compress&cs=tinysrgb&w=1200" fallback="https://images.pexels.com/photos/6119129/pexels-photo-6119129.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Decoração de Natal utilizada como referência visual do kit" loading="lazy"/></div>
           <div className="mockup-card mockup-main">
             <span className="mockup-kicker">EXEMPLO VISUAL • NATAL 2026</span>
             <span className="mockup-star">✦</span>
@@ -176,7 +176,7 @@ export default function Home(){
       <div className="faq-inner">
         <div className="faq-visual">
           <div className="faq-photo-frame">
-            <ResilientPhoto src="https://images.pexels.com/photos/35002552/pexels-photo-35002552.jpeg?auto=compress&cs=tinysrgb&w=1100" fallback="/images/natal-faq.svg" alt="Árvore de Natal iluminada em ambiente acolhedor" loading="lazy"/>
+            <ResilientPhoto src="https://images.pexels.com/photos/35002552/pexels-photo-35002552.jpeg?auto=compress&cs=tinysrgb&w=1200" fallback="https://images.pexels.com/photos/19465368/pexels-photo-19465368.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Árvore de Natal iluminada em ambiente acolhedor" loading="lazy"/>
             <div className="faq-photo-shade" aria-hidden="true"/>
             <div className="faq-photo-caption"><span>✦ NATAL 2026</span><strong>Uma temporada para planejar com carinho.</strong></div>
           </div>
