@@ -191,7 +191,7 @@ export default function Home(){
         <h2 id="offer-title">Prepare seu Natal <em>com mais praticidade.</em></h2>
         <p>Um kit digital pensado para quem precisa divulgar o próprio negócio sem começar cada material do zero.</p>
       </div>
-      <div className="offer-layout"><div className="offer-visual"><ResilientPhoto src="/images/natal-mockup-tree.jpg" fallback="/images/natal-vitrine.jpg" alt="Árvore de Natal iluminada" loading="lazy"/><div className="offer-visual-copy"><span>NATAL 2026</span><strong>Ideias para um Natal que marca.</strong><p>Planeje. Personalize. Divulgue.</p></div></div><div className="offer-card">
+      <div className="offer-layout"><div className="offer-visual"><ResilientPhoto src="/images/natal-oferta-exclusiva.jpg" fallback="/images/natal-mockup-gifts.jpg" alt="Presentes natalinos embrulhados com fitas e luzes decorativas" loading="lazy"/><div className="offer-visual-copy"><span>NATAL 2026</span><strong>Ideias para um Natal que marca.</strong><p>Planeje. Personalize. Divulgue.</p></div></div><div className="offer-card">
         <div className="offer-card-top"><span className="offer-chip">NATAL LUCRATIVO 2026</span><span className="offer-mark" aria-hidden="true">✦</span></div>
         <h3>Seu kit de divulgação natalina</h3>
         <p className="offer-description">Materiais de apoio para você planejar, adaptar e organizar a comunicação do seu negócio nesta temporada.</p>
