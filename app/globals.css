@@ -30,3 +30,13 @@
 .christmas-bulb.bulb-3{fill:#eaf7dd;stroke:#ffffff;animation-duration:1.7s}
 @keyframes christmas-twinkle{0%,22%{opacity:.22;filter:drop-shadow(0 0 1px currentColor);transform:scale(.76)}48%,100%{opacity:1;filter:drop-shadow(0 0 7px #ffe7a4) drop-shadow(0 0 13px #ffbb55);transform:scale(1.18)}}
 @media(prefers-reduced-motion:reduce){.christmas-bulb{animation:none!important;opacity:1!important}}
+
+
+/* Cinematic Christmas photo background behind the actual footer CTA content */
+.footer-cta{min-height:660px;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:105px max(5vw,24px);background-image:linear-gradient(90deg,rgba(3,22,17,.78),rgba(4,29,22,.60) 48%,rgba(3,22,17,.80)),url("/images/natal-hero.jpg");background-size:cover;background-position:center 48%;background-repeat:no-repeat}
+.footer-cta:before,.footer-cta:after{display:none}
+.footer-cta .eyebrow,.footer-cta h2,.footer-cta>p,.footer-cta .footer-action,.footer-cta .footer-spark,.footer-cta .footer-decoration{position:relative;z-index:1;text-shadow:0 2px 16px rgba(0,0,0,.45)}
+.footer-cta h2{max-width:980px}
+.footer-cta>p{color:#fff5e8;font-weight:500}
+.footer-action .btn{box-shadow:0 12px 35px rgba(0,0,0,.38)}
+@media(max-width:640px){.footer-cta{min-height:630px;padding:88px 20px;background-position:60% center;background-image:linear-gradient(90deg,rgba(3,22,17,.84),rgba(4,29,22,.66),rgba(3,22,17,.82)),url("/images/natal-hero.jpg")}}
