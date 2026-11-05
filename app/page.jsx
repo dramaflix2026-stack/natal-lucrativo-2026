@@ -17,6 +17,12 @@ const kitBulbPositions = Array.from({length: 28}, (_, i) => {
 function KitChristmasLights(){
   return <div className="kit-christmas-lights" aria-hidden="true">{kitBulbPositions.map((pos,i)=><i key={i} className={`kit-christmas-bulb kit-bulb-${i % 4}`} style={pos}/>)}</div>;
 }
+function ComparisonGarland(){
+  return <div className="comparison-garland" aria-hidden="true">
+    <svg className="comparison-garland-wire" viewBox="0 0 500 72" preserveAspectRatio="none"><path d="M0 9 Q125 75 250 40 T500 9" fill="none" stroke="#9e8353" strokeWidth="2.3"/></svg>
+    {Array.from({length:15},(_,i)=>{const x=i/14*100;const y=9+31*Math.sin(Math.PI*i/14);return <span key={i} className={`comparison-garland-light comparison-garland-color-${i%4}`} style={{left:`${x}%`,top:`${y}px`,animationDelay:`${-(i%6)*.29}s`}}/>})}
+  </div>;
+}
 export default function Home(){
   return <main>
     <div className="ticker" aria-label="Natal 2026, prepare sua divulgação, kit digital R$ 19,90">
@@ -115,7 +121,7 @@ export default function Home(){
         <p>Não é preciso montar toda a comunicação do zero. Veja como o kit pode simplificar a preparação da sua campanha.</p>
       </div>
       <div className="comparison" aria-label="Comparação entre preparar a divulgação do zero e com apoio do kit">
-        <article className="comparison-panel comparison-before">
+        <article className="comparison-panel comparison-before"><ComparisonGarland/>
           <div className="comparison-label"><span className="comparison-symbol">−</span> SEM UM PLANO</div>
           <h3>Tudo para resolver na última hora.</h3>
           <ul>
@@ -127,7 +133,7 @@ export default function Home(){
           <div className="comparison-foot">Mais decisões para tomar sozinho.</div>
         </article>
         <div className="comparison-arrow" aria-hidden="true">→</div>
-        <article className="comparison-panel comparison-after">
+        <article className="comparison-panel comparison-after"><ComparisonGarland/>
           <div className="comparison-label"><span className="comparison-symbol">✦</span> COM O KIT NATAL LUCRATIVO</div>
           <h3>Uma base pronta para adaptar ao seu negócio.</h3>
           <ul>
