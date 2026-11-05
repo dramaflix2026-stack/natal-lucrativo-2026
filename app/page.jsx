@@ -144,7 +144,33 @@ export default function Home(){
         <a className="btn" href="#compra">CONHECER O KIT • R$ 19,90 ↗</a>
       </div>
     </section>
-    <section id="compra" className="next-anchor"><p><strong>Oferta de lançamento: R$ 19,90.</strong> Checkout ainda não disponível — estamos finalizando os materiais digitais.</p></section>
+    <section id="compra" className="offer-section" aria-labelledby="offer-title">
+      <div className="offer-ornament offer-ornament-left" aria-hidden="true">✦</div>
+      <div className="offer-ornament offer-ornament-right" aria-hidden="true">✦</div>
+      <div className="offer-heading">
+        <span className="eyebrow">Sua campanha começa com organização</span>
+        <h2 id="offer-title">Prepare seu Natal <em>com mais praticidade.</em></h2>
+        <p>Um kit digital pensado para quem precisa divulgar o próprio negócio sem começar cada material do zero.</p>
+      </div>
+      <div className="offer-card">
+        <div className="offer-card-top"><span className="offer-chip">NATAL LUCRATIVO 2026</span><span className="offer-mark" aria-hidden="true">✦</span></div>
+        <h3>Seu kit de divulgação natalina</h3>
+        <p className="offer-description">Materiais de apoio para você planejar, adaptar e organizar a comunicação do seu negócio nesta temporada.</p>
+        <ul className="offer-includes">
+          <li>Templates para divulgação natalina</li>
+          <li>Sugestões de legendas para publicações</li>
+          <li>Estruturas de mensagens para WhatsApp</li>
+          <li>Roteiro para organizar sua campanha</li>
+        </ul>
+        <div className="offer-divider"/>
+        <p className="offer-price-label">PREÇO DO KIT DIGITAL</p>
+        <p className="offer-price"><span>R$</span> 19,90</p>
+        <p className="offer-price-caption">Pagamento e entrega digital serão habilitados após a configuração do checkout.</p>
+        <div className="offer-button-placeholder" role="status">COMPRA EM PREPARAÇÃO <span aria-hidden="true">✦</span></div>
+        <p className="offer-disclaimer">O checkout ainda não está disponível. Nenhuma compra ou pagamento é processado nesta página.</p>
+      </div>
+      <p className="offer-bottom-note">✦ Conteúdo digital para personalização. Não inclui serviços de divulgação nem garante resultados de vendas.</p>
+    </section>
     <div id="duvidas" aria-hidden="true"/>
   </main>;
 }
