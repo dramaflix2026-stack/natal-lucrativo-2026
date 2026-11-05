@@ -177,3 +177,11 @@ html,body,body *,button,input,select,textarea{font-family:var(--font-poppins,"Po
 @keyframes comparison-twinkle{0%,22%{opacity:.4;filter:brightness(.7)}75%,100%{opacity:1;filter:brightness(1.3)}}
 @media(max-width:640px){.comparison-panel{padding-top:85px}.comparison-garland{left:12px;right:12px}.comparison-garland-light{width:8px;height:12px}}
 @media(prefers-reduced-motion:reduce){.comparison-garland-light{animation:none}}
+
+
+/* Sharp, legible high-contrast announcement ticker */
+.ticker{background:#e5c789;color:#082a21;border-bottom:2px solid #113b2e;min-height:43px;display:flex;align-items:center;isolation:isolate}
+.ticker-track{align-items:center;animation-duration:55s;will-change:transform}
+.ticker-copy{padding:11px 0;font-size:13px;font-weight:800;line-height:1.6;letter-spacing:1.25px;color:#082a21;text-shadow:none;filter:none;opacity:1;-webkit-font-smoothing:auto;text-rendering:optimizeLegibility;white-space:nowrap}
+@media(max-width:640px){.ticker{min-height:40px}.ticker-copy{font-size:12px;letter-spacing:.8px;padding:10px 0}.ticker-track{animation-duration:65s}}
+@media(prefers-reduced-motion:reduce){.ticker-track{animation:none}}
