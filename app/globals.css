@@ -90,3 +90,23 @@
 @keyframes kit-float-secondary{0%,100%{transform:translateY(0) rotate(7deg)}50%{transform:translateY(8px) rotate(6deg)}}
 @media(max-width:640px){.kit-showcase-premium{min-height:520px}.kit-premium-photo-main{top:40px;height:340px;width:73%}.kit-premium-photo-gifts{top:230px;height:195px;width:53%}.kit-premium-note{bottom:10px;padding:15px;width:63%;left:22%}.kit-premium-note strong{font-size:16px}.kit-photo-overlay strong{font-size:30px}}
 @media(prefers-reduced-motion:reduce){.kit-premium-photo-main,.kit-premium-photo-gifts{animation:none}}
+
+
+/* Hero premium: contained editorial grid, generous spacing, stronger type hierarchy */
+@media(min-width:961px){
+.hero{grid-template-columns:minmax(0,1.02fr) minmax(0,.98fr);gap:clamp(45px,5vw,100px);padding:85px max(7vw,42px) 105px;max-width:none;min-height:740px}
+.hero-content{width:100%;max-width:670px;margin-left:auto}
+.hero h1{font-size:clamp(52px,4.65vw,76px);line-height:1.075;letter-spacing:-2.6px;max-width:660px;margin:25px 0 26px;text-wrap:balance}
+.hero p{max-width:580px;line-height:1.75;font-size:17px}
+.hero-visual{min-height:565px;justify-content:flex-start}
+.photo-wrap{width:min(100%,555px);height:550px;border-radius:230px 230px 18px 18px;box-shadow:0 34px 95px #0008,0 0 0 9px #dfbb7530}
+.photo-wrap img{object-position:50% 48%}
+}
+.hero .eyebrow{color:#f0d59c}
+.hero .offer-row{margin-top:32px}
+.hero .offer-row .btn{padding:19px 29px;box-shadow:0 15px 32px #0006}
+.hero .trust{margin-top:24px;max-width:570px}
+.photo-wrap:after{background:linear-gradient(0deg,#08291fb5,transparent 30%)}
+@media(min-width:961px) and (max-width:1200px){.hero{padding-left:5vw;padding-right:5vw;gap:36px}.hero h1{font-size:clamp(47px,5vw,63px)}.photo-wrap{height:490px}}
+@media(max-width:960px){.hero-content{margin:0 auto}.hero-visual{justify-content:center}.hero h1{text-wrap:balance}.photo-wrap img{object-position:center 45%}}
+@media(max-width:640px){.hero h1{font-size:clamp(38px,9.2vw,53px)}.hero .offer-row{margin-top:24px}.photo-wrap{box-shadow:0 24px 55px #0007,0 0 0 5px #dfbb7530}}
