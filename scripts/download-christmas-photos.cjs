@@ -1,6 +1,11 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const photos = [
+  ['natal-hero-premium.jpg', [
+    'https://images.pexels.com/photos/19465372/pexels-photo-19465372.jpeg?auto=compress&cs=tinysrgb&w=1400',
+    'https://images.pexels.com/photos/29811680/pexels-photo-29811680.jpeg?auto=compress&cs=tinysrgb&w=1400',
+    'https://images.unsplash.com/photo-1543589077-47d81606c1bf?w=1400&q=88'
+  ]],
   ['natal-mockup-tree.jpg', [
     'https://images.unsplash.com/photo-1543589077-47d81606c1bf?w=1400&q=88',
     'https://images.unsplash.com/photo-1512389142860-9c449e58a543?w=1400&q=88'
