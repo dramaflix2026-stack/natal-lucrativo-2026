@@ -176,7 +176,7 @@ export default function Home(){
         <h2 id="offer-title">Prepare seu Natal <em>com mais praticidade.</em></h2>
         <p>Um kit digital pensado para quem precisa divulgar o próprio negócio sem começar cada material do zero.</p>
       </div>
-      <div className="offer-card">
+      <div className="offer-layout"><div className="offer-visual"><ResilientPhoto src="/images/natal-mockup-tree.jpg" fallback="/images/natal-vitrine.jpg" alt="Árvore de Natal iluminada" loading="lazy"/><div className="offer-visual-copy"><span>NATAL 2026</span><strong>Ideias para um Natal que marca.</strong><p>Planeje. Personalize. Divulgue.</p></div></div><div className="offer-card">
         <div className="offer-card-top"><span className="offer-chip">NATAL LUCRATIVO 2026</span><span className="offer-mark" aria-hidden="true">✦</span></div>
         <h3>Seu kit de divulgação natalina</h3>
         <p className="offer-description">Materiais de apoio para você planejar, adaptar e organizar a comunicação do seu negócio nesta temporada.</p>
@@ -193,7 +193,7 @@ export default function Home(){
         <div className="offer-button-placeholder" role="status">COMPRA EM PREPARAÇÃO <span aria-hidden="true">✦</span></div>
         <p className="offer-disclaimer">O checkout ainda não está disponível. Nenhuma compra ou pagamento é processado nesta página.</p>
       </div>
-      <p className="offer-bottom-note">✦ Conteúdo digital para personalização. Não inclui serviços de divulgação nem garante resultados de vendas.</p>
+      </div><p className="offer-bottom-note">✦ Conteúdo digital para personalização. Não inclui serviços de divulgação nem garante resultados de vendas.</p>
     </section>
     <section id="duvidas" className="faq-section" aria-labelledby="faq-title">
       <div className="faq-inner">
