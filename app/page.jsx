@@ -77,7 +77,43 @@ export default function Home(){
         </div>
       </div>
     </section>
+    <section id="beneficios" className="benefits-section" aria-labelledby="benefits-title">
+      <div className="benefits-heading">
+        <div className="eyebrow">Menos improviso, mais organização</div>
+        <h2 id="benefits-title">Seu Natal pode começar <em>com um plano.</em></h2>
+        <p>Não é preciso montar toda a comunicação do zero. Veja como o kit pode simplificar a preparação da sua campanha.</p>
+      </div>
+      <div className="comparison" aria-label="Comparação entre preparar a divulgação do zero e com apoio do kit">
+        <article className="comparison-panel comparison-before">
+          <div className="comparison-label"><span className="comparison-symbol">−</span> SEM UM PLANO</div>
+          <h3>Tudo para resolver na última hora.</h3>
+          <ul>
+            <li>Começar cada publicação com uma página em branco.</li>
+            <li>Pensar em textos e mensagens separadamente.</li>
+            <li>Organizar ideias e datas em meio à rotina do negócio.</li>
+            <li>Ter dificuldade para manter uma comunicação consistente.</li>
+          </ul>
+          <div className="comparison-foot">Mais decisões para tomar sozinho.</div>
+        </article>
+        <div className="comparison-arrow" aria-hidden="true">→</div>
+        <article className="comparison-panel comparison-after">
+          <div className="comparison-label"><span className="comparison-symbol">✦</span> COM O KIT NATAL LUCRATIVO</div>
+          <h3>Uma base pronta para adaptar ao seu negócio.</h3>
+          <ul>
+            <li>Partir de modelos de divulgação natalina.</li>
+            <li>Consultar sugestões de legendas e mensagens.</li>
+            <li>Usar um roteiro para planejar sua comunicação.</li>
+            <li>Personalizar os materiais conforme suas ofertas.</li>
+          </ul>
+          <div className="comparison-foot">Mais clareza para preparar sua campanha.</div>
+        </article>
+      </div>
+      <div className="benefits-bottom">
+        <p>Você continua no controle da sua comunicação. O kit oferece um ponto de partida — não resultados garantidos.</p>
+        <a className="btn" href="#compra">CONHECER A OFERTA • R$ 19,90 ↗</a>
+      </div>
+    </section>
     <section id="compra" className="next-anchor"><p><strong>Oferta de lançamento: R$ 19,90.</strong> Checkout ainda não disponível — estamos finalizando os materiais digitais.</p></section>
-    <div id="beneficios" aria-hidden="true"/><div id="duvidas" aria-hidden="true"/>
+    <div id="duvidas" aria-hidden="true"/>
   </main>;
 }
