@@ -78,21 +78,11 @@ export default function Home(){
         <p>Recursos para planejar sua divulgação de Natal com mais clareza, consistência e praticidade — mesmo que você cuide de tudo sozinho.</p>
       </div>
       <div className="kit-layout">
-        <div className="kit-showcase" aria-label="Ilustrações conceituais dos tipos de material">
-          <div className="kit-photo"><ResilientPhoto src="/images/natal-vitrine.jpg" fallback="/images/natal-vitrine.jpg" alt="Decoração de Natal utilizada como referência visual do kit" loading="lazy"/></div>
-          <div className="mockup-card mockup-main">
-            <span className="mockup-kicker">EXEMPLO VISUAL • NATAL 2026</span>
-            <span className="mockup-star">✦</span>
-            <strong>Um Natal<br/>para lembrar.</strong>
-            <span className="mockup-rule"/>
-            <small>Modelo ilustrativo de divulgação</small>
-          </div>
-          <div className="mockup-card mockup-note">
-            <span className="mockup-kicker">IDEIA DE LEGENDA</span>
-            <strong>É tempo de celebrar ✨</strong>
-            <p>Uma sugestão de mensagem para apresentar sua campanha.</p>
-            <span className="mockup-dots">● ● ●</span>
-          </div>
+        <div className="kit-showcase kit-showcase-premium" aria-label="Exemplos visuais natalinos">
+          <div className="kit-photo"><ResilientPhoto src="/images/natal-vitrine.jpg" fallback="/images/natal-vitrine.jpg" alt="Fotografia de decoração natalina" loading="lazy"/></div>
+          <div className="kit-premium-photo kit-premium-photo-main"><ResilientPhoto src="/images/natal-mockup-tree.jpg" fallback="/images/natal-vitrine.jpg" alt="Árvore de Natal iluminada" loading="lazy"/><div className="kit-photo-overlay"><span>EXEMPLO VISUAL · NATAL 2026</span><strong>Um Natal para lembrar.</strong><small>Referência de arte para divulgação</small></div></div>
+          <div className="kit-premium-photo kit-premium-photo-gifts"><ResilientPhoto src="/images/natal-mockup-gifts.jpg" fallback="/images/natal-vitrine.jpg" alt="Presentes de Natal sob a árvore" loading="lazy"/><span>INSPIRAÇÃO PARA SUA CAMPANHA</span></div>
+          <div className="kit-premium-note"><span>IDEIA DE LEGENDA</span><strong>É tempo de celebrar ✨</strong><p>Uma sugestão de mensagem para apresentar sua campanha.</p></div>
           <div className="mockup-sticker">KIT DIGITAL<br/><strong>R$ 19,90</strong></div>
         </div>
         <div className="kit-details">
