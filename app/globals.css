@@ -139,3 +139,12 @@
 @media(max-width:760px){.footer-premium-head{flex-direction:column;align-items:flex-start;gap:13px}.footer-premium-head strong{text-align:left}.footer-main{padding-top:50px}}
 /* Elegant non-emoji step icons */
 .step-icon{font-family:Georgia,serif;font-size:34px;color:#b28b49;filter:none}
+
+
+/* FIX: footer background must span the viewport, not stop at the 1320px grid container */
+.final-footer{width:100%;background:#071e19}
+.final-footer .footer-main{max-width:none;width:100%;margin:0;padding:70px max(5vw,calc((100vw - 1120px)/2)) 62px;grid-template-columns:minmax(0,1.25fr) minmax(0,.7fr) minmax(0,1fr);column-gap:clamp(35px,5vw,90px);row-gap:55px;background:linear-gradient(145deg,#09281f,#071e19 70%);box-sizing:border-box}
+.final-footer .footer-premium-head{width:100%;margin:0;padding-bottom:35px}
+.final-footer .footer-bottom{max-width:none;width:100%;margin:0;padding:24px max(5vw,calc((100vw - 1120px)/2)) 32px;box-sizing:border-box;background:#071e19}
+@media(max-width:900px){.final-footer .footer-main{grid-template-columns:1fr 1fr;padding:58px 5vw;row-gap:35px}.final-footer .footer-brand-area{grid-column:1/-1}.final-footer .footer-bottom{padding-left:5vw;padding-right:5vw}}
+@media(max-width:640px){.final-footer .footer-main{grid-template-columns:1fr;padding:46px 20px;gap:32px}.final-footer .footer-premium-head{gap:12px;padding-bottom:26px}.final-footer .footer-brand-area{grid-column:auto}.final-footer .footer-bottom{padding:22px 20px 30px}}
