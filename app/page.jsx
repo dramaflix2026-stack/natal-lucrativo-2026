@@ -113,6 +113,37 @@ export default function Home(){
         <a className="btn" href="#compra">CONHECER A OFERTA • R$ 19,90 ↗</a>
       </div>
     </section>
+    <section id="como-funciona" className="steps-section" aria-labelledby="steps-title">
+      <div className="steps-heading">
+        <span className="eyebrow">Simples de colocar em prática</span>
+        <h2 id="steps-title">Do planejamento à divulgação, <em>em três passos.</em></h2>
+        <p>O kit foi pensado para ajudar você a organizar sua comunicação natalina sem precisar começar tudo do zero.</p>
+      </div>
+      <div className="steps-track">
+        <article className="step-card">
+          <div className="step-number" aria-label="Passo 1">01</div>
+          <div className="step-icon" aria-hidden="true">✦</div>
+          <h3>Acesse os materiais</h3>
+          <p>Depois da compra e da liberação do acesso, consulte os modelos, textos e o roteiro de organização do kit.</p>
+        </article>
+        <article className="step-card">
+          <div className="step-number" aria-label="Passo 2">02</div>
+          <div className="step-icon" aria-hidden="true">✎</div>
+          <h3>Personalize para seu negócio</h3>
+          <p>Adapte as sugestões à sua marca, aos seus produtos, às suas condições comerciais e à sua linguagem.</p>
+        </article>
+        <article className="step-card">
+          <div className="step-number" aria-label="Passo 3">03</div>
+          <div className="step-icon" aria-hidden="true">↗</div>
+          <h3>Organize e divulgue</h3>
+          <p>Planeje suas publicações e mensagens, revise as informações e use os materiais nos seus canais.</p>
+        </article>
+      </div>
+      <div className="steps-bottom">
+        <div><strong>Seu Natal, do seu jeito.</strong><span>Um ponto de partida para comunicar melhor, sem promessas de vendas garantidas.</span></div>
+        <a className="btn" href="#compra">CONHECER O KIT • R$ 19,90 ↗</a>
+      </div>
+    </section>
     <section id="compra" className="next-anchor"><p><strong>Oferta de lançamento: R$ 19,90.</strong> Checkout ainda não disponível — estamos finalizando os materiais digitais.</p></section>
     <div id="duvidas" aria-hidden="true"/>
   </main>;
