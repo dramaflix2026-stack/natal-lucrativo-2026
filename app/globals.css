@@ -61,3 +61,8 @@
 @media(max-width:900px){.steps-travel-light{display:none}}
 @media(max-width:640px){.steps-photo-banner{margin:0 -20px 48px;height:155px;background-position:center}.steps-section{padding-top:0}.step-card{animation:none}}
 @media(prefers-reduced-motion:reduce){.steps-photo-sheen,.steps-travel-light,.step-card{animation:none!important}}
+
+
+/* Christmas living room with illuminated tree, presents and fireplace — replaces botanical flatlay */
+.footer-cta{background-image:linear-gradient(90deg,rgba(4,22,17,.78) 0%,rgba(5,27,21,.60) 48%,rgba(4,22,17,.76) 100%),url("/images/natal-footer-cinematic.jpg");background-position:center center;background-size:cover}
+@media(max-width:640px){.footer-cta{background-image:linear-gradient(90deg,rgba(4,22,17,.83),rgba(5,27,21,.62),rgba(4,22,17,.78)),url("/images/natal-footer-cinematic.jpg");background-position:60% center}}
