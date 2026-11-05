@@ -171,6 +171,31 @@ export default function Home(){
       </div>
       <p className="offer-bottom-note">✦ Conteúdo digital para personalização. Não inclui serviços de divulgação nem garante resultados de vendas.</p>
     </section>
-    <div id="duvidas" aria-hidden="true"/>
+    <section id="duvidas" className="faq-section" aria-labelledby="faq-title">
+      <div className="faq-inner">
+        <div className="faq-visual">
+          <div className="faq-photo-frame">
+            <img src="https://images.unsplash.com/photo-1512389142860-9c449e58a543?auto=format&fit=crop&w=1100&q=85" alt="Árvore de Natal iluminada em ambiente acolhedor" loading="lazy"/>
+            <div className="faq-photo-shade" aria-hidden="true"/>
+            <div className="faq-photo-caption"><span>✦ NATAL 2026</span><strong>Uma temporada para planejar com carinho.</strong></div>
+          </div>
+          <div className="faq-visual-tag">✦ KIT DIGITAL</div>
+        </div>
+        <div className="faq-content">
+          <span className="eyebrow">Tire suas dúvidas</span>
+          <h2 id="faq-title">Tudo o que você precisa <em>saber antes de começar.</em></h2>
+          <p className="faq-lead">Respostas claras sobre o conteúdo, o formato e a futura compra do kit.</p>
+          <div className="faq-list">
+            <details className="faq-item"><summary><span>O que está incluído no Natal Lucrativo 2026?</span><span className="faq-toggle" aria-hidden="true">+</span></summary><div className="faq-answer">A proposta do kit reúne templates para divulgação natalina, sugestões de legendas, estruturas de mensagens para WhatsApp e um roteiro de organização da campanha. Os arquivos finais ainda estão em preparação.</div></details>
+            <details className="faq-item"><summary><span>O kit é físico ou digital?</span><span className="faq-toggle" aria-hidden="true">+</span></summary><div className="faq-answer">É um produto exclusivamente digital. Não há envio de presentes, materiais impressos ou produtos físicos.</div></details>
+            <details className="faq-item"><summary><span>Posso adaptar os materiais para meu negócio?</span><span className="faq-toggle" aria-hidden="true">+</span></summary><div className="faq-answer">Sim. A proposta é que você personalize os textos e os modelos de comunicação para sua marca, seus produtos, serviços e condições comerciais.</div></details>
+            <details className="faq-item"><summary><span>Preciso ter experiência em marketing?</span><span className="faq-toggle" aria-hidden="true">+</span></summary><div className="faq-answer">Não é necessário ser especialista. Os materiais são pensados como ponto de partida para quem organiza a própria divulgação, mas você precisará revisar e adaptar o conteúdo.</div></details>
+            <details className="faq-item"><summary><span>Como receberei o kit depois da compra?</span><span className="faq-toggle" aria-hidden="true">+</span></summary><div className="faq-answer">O processo de pagamento e entrega digital ainda está sendo configurado. O método de acesso será informado aqui antes de as vendas serem habilitadas.</div></details>
+            <details className="faq-item"><summary><span>Quais são as formas de pagamento e a política de reembolso?</span><span className="faq-toggle" aria-hidden="true">+</span></summary><div className="faq-answer">As formas de pagamento e as condições de reembolso serão apresentadas com clareza antes da abertura do checkout, conforme a legislação aplicável. Nenhum pagamento está sendo aceito nesta página no momento.</div></details>
+          </div>
+          <p className="faq-note">Ainda estamos finalizando os materiais e a integração de pagamento. Informações comerciais definitivas serão publicadas antes da abertura das vendas.</p>
+        </div>
+      </div>
+    </section>
   </main>;
 }
