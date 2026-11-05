@@ -197,5 +197,41 @@ export default function Home(){
         </div>
       </div>
     </section>
+    <footer className="final-footer" aria-labelledby="footer-title">
+      <div className="footer-cta">
+        <span className="footer-spark" aria-hidden="true">✦</span>
+        <span className="eyebrow">Natal Lucrativo 2026</span>
+        <h2 id="footer-title">Sua próxima campanha de Natal <em>pode começar aqui.</em></h2>
+        <p>Organize sua divulgação com modelos, ideias de legendas, mensagens e um roteiro prático para adaptar ao seu negócio.</p>
+        <div className="footer-action">
+          <a href="#compra" className="btn">VER O KIT POR R$ 19,90 ↗</a>
+          <span>Compra ainda não disponível. Veja os detalhes da oferta acima.</span>
+        </div>
+        <div className="footer-decoration" aria-hidden="true">✦ ✧ ✦</div>
+      </div>
+      <div className="footer-main">
+        <div className="footer-brand-area">
+          <a href="#inicio" className="footer-brand">NATAL LUCRATIVO <strong>2026</strong></a>
+          <p>Materiais digitais para apoiar pequenos negócios na preparação da comunicação de fim de ano.</p>
+        </div>
+        <nav className="footer-nav" aria-label="Navegação do rodapé">
+          <span>EXPLORAR</span>
+          <a href="#kit">O que vem no kit</a>
+          <a href="#beneficios">Benefícios</a>
+          <a href="#como-funciona">Como funciona</a>
+          <a href="#compra">Oferta e preço</a>
+          <a href="#duvidas">Perguntas frequentes</a>
+        </nav>
+        <div className="footer-info">
+          <span>INFORMAÇÕES</span>
+          <p>Produto digital em preparação. Pagamento, entrega e informações comerciais serão disponibilizados antes da abertura das vendas.</p>
+        </div>
+      </div>
+      <div className="footer-bottom">
+        <span>© {new Date().getFullYear()} Natal Lucrativo 2026.</span>
+        <span>Sem promessas de vendas ou resultados garantidos.</span>
+        <a href="#inicio">Voltar ao topo ↑</a>
+      </div>
+    </footer>
   </main>;
 }
